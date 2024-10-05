@@ -1443,7 +1443,6 @@ y_test_pred_proba_rf = rf.predict_proba(X_test)[:, 1]
 st.write("**Evaluasi Model Random Forest pada Data Test Tanpa CIBIL Score**")
 
 st.text("Classification Report:\n" + classification_report(y_test, y_test_pred_rf))
-st.text("Akurasi: {:.4f}".format(accuracy_score(y_test, y_test_pred_rf)))
 st.text("AUC-ROC: {:.4f}".format(roc_auc_score(y_test, y_test_pred_proba_rf)))
 st.text("F1-Score: {:.4f}".format(f1_score(y_test, y_test_pred_rf)))
 st.text("Precision: {:.4f}".format(precision_score(y_test, y_test_pred_rf)))
