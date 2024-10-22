@@ -622,7 +622,7 @@ st.pyplot(plt)
 st.write("Karena adanya ketidakseimbangan data, tidak memakai metrik Accuracy. Maka digunakan metrik F1-Score (sebagai metrik utama), Precision, Recall, dan AUC-ROC")
 
 st.write("**b. Split Data**")
-st.write("Membagi data menjadi 3 yaitu Data Train (60%), Data Validation(40%), Data Test(40%)")
+st.write("Membagi data menjadi 3 yaitu Data Train (60%), Data Validation(20%), Data Test(20%)")
 
 from sklearn.model_selection import train_test_split
 
